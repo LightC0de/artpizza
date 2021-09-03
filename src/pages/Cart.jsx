@@ -168,7 +168,7 @@ function Cart() {
       ) : (
         <div className="cart cart--empty">
           <h2>
-            Корзина пустая <i>😕</i>
+            Корзина пустая <span role='img' aria-labelledby="shopping cart is empty">😕</span>
           </h2>
           <p>
             Вероятней всего, вы не заказывали ещё пиццу.
